@@ -1,0 +1,474 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static '/home.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/partner.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/ourcg.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="{% static '/register.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
+        <link rel="stylesheet" type="text/css" href="{% static '/success.css' %}">
+
+
+
+   
+
+
+</head>
+
+<body>
+  
+ 
+  <!-- Home Page Code Start  -->
+  
+  <!-- Home Page code end -->
+  <header>
+    <nav>
+    <div class="logo"></div>
+    
+
+    <div class="navLinks">
+        <ul>
+            <li>
+                <a href="#home">Home</a></li>
+            <li>
+                <a href="#screening">Screening</a></li>
+            <li>
+                <!-- <a href="{% url 'r1' %}">Sponsors</a> -->
+                <a href="#sponsors">Sponsors</a>
+            </li>
+            <button type="button"><a href="#register" style="text-decoration: none;">Register</a></button>
+        </ul>
+    </div>
+</nav>
+<!-- responsive nav side bar -->
+<div class="sideNav" id="sidenav">
+    <a href="#" class="closeBtn" onclick="CloseNav()">&#10006</a>
+    <a href="#home" onclick="CloseNavs()">Home</a></li>
+    <a href="#screening" onclick="CloseNavs()">Screening</a></li>
+    <a href="#sponsors" onclick="CloseNavs()">Sponsors</a>
+    <a href="#register" onclick="CloseNavs()"> <button type="button">Register</button> </a>
+
+    <!-- header content -->
+   
+
+
+    
+</div>
+<div class="row">
+    <div class="column1">
+        <h1>PATNA COMEDY CARNIVAL</h1>
+        <p>Venue :  Rabindra Bhawan, Beer chand Patel Path, Veerchand Patel Road Area, Patna, Bihar 800001 </p>
+        <button><a href="#register">Purchase</a></button>
+    </div>
+    <div class="column2">
+        <img src="{% static '../static/images/boy copy.png' %}" alt="" srcset="" width="600px">
+        
+    </div>
+</div>
+</header>
+
+<!-- Our client start -->
+<section id="screening">
+  <h2 class="h22">Screening</h2>
+  <div class="container2">
+  
+      <div class="card1">
+          <div class="content1">
+              <div class="imgBx">
+                <h2></h2>
+                  <img src="https://wp.hindi.scoopwhoop.com/wp-content/uploads/2022/01/61d4042a0af5fb0001b9a136_cbe6b060-453d-40ab-b584-7975498c2a43.jpg" alt="" srcset="">
+              </div>
+              <div class="contentBx">
+                  <h4>
+                      Ravi Gupta
+                  </h4>
+                  <h5>
+                      Comedian
+                  </h5>
+              </div>
+              <div class="sci1">
+                  <a href="{% url 'r1' %}"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="{% url 'r2' %}"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="{% url 'r3' %}"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+          </div>
+      </div>
+      <div class="card1">
+          <div class="content1">
+              <div class="imgBx">
+                  <img src="https://pbs.twimg.com/profile_images/1545045392001155072/otEbmrDv_400x400.jpg" alt="" srcset="">
+              </div>
+              <div class="contentBx">
+                  <h4>
+                    Gurleen Pannu
+                  </h4>
+                  <h5>
+                      Comedian
+                  </h5>
+              </div>
+              <div class="sci1">
+                  <a href="{% url 'r4' %}"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="{% url 'r6' %}"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="{% url 'r5' %}"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+    <section class="about12" >
+        <div class="content123">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeCmvu9jieXtb6TfxJ9H9mQkH0FkKe4gyADmZk7IkTg92LP7y6KKcOC0fiioX0P_MmhOasWtT3YZVD5re7uRM_oSV5EZL_k7ugU8YYoFw2Jtv42WwEXSRxkiZCHhIFe82wm6raUEjYk5EbdmONewYhzU3e3LvFqec_QJLcCDMXcWK-3lBznqdZMNFt/s320/kjkjk.jpg"
+                alt="">
+            <div class="text12">
+                <h1>Title Sponsor</h1>
+               
+                <p>Established in the year 2017, Brijwasi Sweets & Restaurant in Mithapur, Patna is a top player in the category Restaurants in the Patna. This well-known establishment acts as a one-stop destination serving customers both local and from other parts of Patna. Over the course of its journey, this business has established a firm foothold in it's industry. The belief that customer satisfaction is as important as their products and services, have helped this establishment garner a vast base of customers, which continues to grow by the day. This business employs individuals that are dedicated towards their respective roles and put in a lot of effort to achieve the common vision and larger goals of the company. In the near future, this business aims to expand its line of products and services and cater to a larger client base. In Patna, this establishment occupies a prominent location in Mithapur. It is an effortless task in commuting to this establishment as there are various modes of transport readily available. It is at, Near By Jio Office, which makes it easy for first-time visitors in locating this establishment. It is known to provide top service in the following categories: Restaurants, Indian Restaurants, Home Delivery Restaurants, South Indian Restaurants, Inexpensive Restaurants (Below Rs 500), Pure Veg Restaurants, South Indian Delivery Restaurants,Indian Delivery Restaurants.
+                </p>
+                  <a href="https://www.google.com/search?q=brijwasi%20sweets%20%26%20restaurant&client=firefox-b-d&sxsrf=AJOqlzV9-zJWWZpQYBXd1ChcS7R8FJIptA:1675102875782&ei=jwrYY5LwFabV4-EPxoKP-AQ&oq=brajwasi+sweets+&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgBMgcIABCABBAKMgcIABCABBAKMg0ILhCvARDHARCABBAKMhAILhCvARDHARCSAxCABBAKMgcIABCABBAKMgcIABCABBAKMgcIABCABBAKMgcIABCABBAKMgoIABCABBDJAxAKMgcIABCABBAKOgoIABBHENYEELADOhAILhCABBAUEIcCEMcBEK8BOgoIABCABBAUEIcCOg0IABCABBCxAxDJAxAKOgUIABCABDoNCC4QgAQQxwEQrwEQCjoLCAAQsQMQyQMQkQI6CwguEK8BEMcBEJECOgUIABCRAjoLCC4QxwEQrwEQkQJKBAhBGABKBAhGGABQQViKE2CbJWgBcAF4AIAB5wGIAegNkgEDMi04mAEAoAEByAEIwAEB&sclient=gws-wiz-serp&tbs=lf:1,lf_ui:9&tbm=lcl&rflfq=1&num=10&rldimm=3577271307340413686&lqi=Chxicmlqd2FzaSBzd2VldHMgJiByZXN0YXVyYW50SObq0u-ktoCACFo6EAAQARACEAMYABgBGAIYAyIcYnJpandhc2kgc3dlZXRzICYgcmVzdGF1cmFudCoKCAIQABABEAIQA5IBC2NhbmR5X3N0b3Jl&phdesc=nblt6OLSxB8&ved=2ahUKEwiH7P2-9O_8AhVSyDgGHQoZDb8QvS56BAgLEAE&sa=X&rlst=f#rlfi=hd:;si:15305954093520164227,l,Chxicmlqd2FzaSBzd2VldHMgJiByZXN0YXVyYW50SNHezcuBroCACFo4EAAQARACEAMYABgBGAMiHGJyaWp3YXNpIHN3ZWV0cyAmIHJlc3RhdXJhbnQqCggCEAAQARACEAOSARFpbmRpYW5fcmVzdGF1cmFudA,y,bW-fVlxJR5g;mv:[[25.6137213,85.1384029],[25.5873399,85.0783721]]"> <button class="btnbtn">Know More</button> </a> 
+
+               
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+<section id="register">
+<div class="contactUs" >
+  <div class="title">
+     <h2>Regiter Now </h2> 
+  </div>
+  <div class="box">
+      <div class="contact form">
+        <h3>Register Now</h3>
+        <form action="" method="POST" name="form1" onsubmit="return cfb1()"   id="form1">
+          {% csrf_token %}
+          <div class="formBox">
+              <div class="row50">
+                  <div class="inputBox">
+                     <span>First Name</span> 
+                     <input type="text" placeholder="John" name="fname1" id="fname1">
+                  </div>
+                  
+                  <div class="inputBox">
+                     <span>Second Name</span> 
+                     <input type="text" placeholder="Doe" name="fname2" id="fname2">
+                  </div>
+
+              </div>
+              
+              <div class="row50">
+                  <div class="inputBox">
+                     <span>Email</span> 
+                     <input type="email" placeholder="xyz@email.com" name="email1">
+                  </div>
+                  <div class="inputBox">
+                     <span>Phone Number</span> 
+                     <input type="number" placeholder="888 888 8888" name="phone1" id="phone1">
+                  </div>
+
+              </div>
+              <div class="row50">
+                  <div class="inputBox">
+                     <span>Category</span> 
+                     <select  id="mycar" name="price1" id="price1">
+                      <option value="499" selected>Silver : 499 ₹</option> <!-- By default indica is selected-->
+                      <option value="799">Gold : 799 ₹ </option>
+                      <option value="999">Platinum : 999 ₹</option>
+                  </select>
+                  </div>
+                  <div class="inputBox">
+                     <span>Quantity</span> 
+                     <input type="number" placeholder="1 , 2 ,3...." name="q1" id="q1">
+
+                    
+                  </div>
+                  
+
+              </div>
+              
+              <div class="row100">
+                  <div class="inputBox">
+                    
+                     <input type="submit" value="submit" id="button1" id="aaaa">
+                  </div>
+
+                  
+                  
+                  
+
+              </div>
+          </div>
+
+        </form>   
+        {% if payment %}
+       
+                  <div class="inputsBox  ">
+                    
+                     <a href="" class="buttonafter">Pay Now</a>
+                  </div>
+                  <script>
+                    const a = document.getElementById("button1").style.display ="none"
+                    document.querySelector('aaaa').addEventListener("click",()=>{
+                      window.scrollTo(0,document.body.scrollHeight)
+                    })
+                    
+                  </script>
+                  {% endif %}
+
+      </div>
+      
+      <div class="contact info" id="#Register">
+          <h3>Event Details</h3>
+          <div class="infoBox">
+              <div>
+                  <span><ion-icon name="location"></ion-icon>
+                  </span>
+                  <p>Venue : Rabindra Bhawan, Beer chand Patel Path, Veerchand Patel Road Area, Patna, Bihar 800001</p>
+              </div>
+              <div>
+                  <span><ion-icon name="mail-outline"></ion-icon></span>
+              <a href="mailto:patnacarnival@gmail.com">patnacomedycarnival@gmail.com</a>
+              </div>
+              <div>
+                  <span><ion-icon name="call-outline"></ion-icon></span>
+              <a href="tel:+8210760956">8210760956</a> 
+              
+              </div>
+		<div>
+			<span> <ion-icon name="call-outline"></ion-icon></span>
+			<a href="tel:6203254540">6203254540</a>
+		</div>
+              <ul class="sci">
+                  <li><a href="{% url 'r7' %}"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                 
+              </ul>
+
+          </div>
+
+      </div>
+      <div class="contact map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.0820988421215!2d85.12500191401651!3d25.602188021435147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed586b2cc3d16d%3A0xa7ca40f8534d6c0b!2sRabindra%20Bhavan!5e0!3m2!1sen!2sin!4v1674850931279!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+  </div>
+</div>
+</section>
+
+<!-- #regiter contact end -->
+<section>
+<div class="containerxyz" id="sponsors">
+<div class="tet">
+   
+  </div>
+    <section class="customer-logos slider">
+      <div class="slide"> <img src="{% static '../static/images/i1.jpg' %}" alt=""> </div>
+      <div class="slide"> <img src="{% static '../static/images/i2.jpg' %}" alt=""> </div>
+      <div class="slide"> <img src="{% static '../static/images/i3.jpg' %}" alt=""> </div>
+      <div class="slide"> <img src="{% static '../static/images/i4.jpg' %}" alt=""> </div>
+      <div class="slide"> <img src="{% static '../static/images/i5.jpg' %}" alt=""> </div>
+      <div class="slide"> <img src="{% static '../static/images/i6.jpg' %}" alt=""> </div>
+       <a href="{% url 'r8' %}">  <div class="slide">  <img src="{% static '../static/images/i8.jpg' %}" alt=""></div>  </a> 
+      <a href="{% url 'r9' %}">  <div class="slide">  <img src="{% static '../static/images/i7.jpg' %}" alt=""></div>  </a> 
+      <div class="slide"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuj_hyEeSf8vAq3hVxWgQE3uP0hjBEWCFdAfHrsX-LksjVgOj_f6ujyTT4o2Od47k7HKVgtp1eTmKXuO5JButjQlzD6z9dsh8TtAYm8zYtoueLM5ldeDEx_7pME2pFIWSmoPCJChMq1H8zoBfun0crb420AZZ7H8chdQyuz8fymW97IA1Nf1in1iMA/s1181/1.jpg" alt=""> </div>
+      <div class="slide"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGmxIuLDu0JBOyvYL2qo8qvdCn46IqrUIYAVk0K-vxDnAj5BdU7aKEfEHjvv16a0-xstUCu_cMbzWKDclkN2QleeTidq8-rZbSbDJPMu3e-Ezp4v-Tk1Szl4HwgYrUPUVYVx5bXcVID4-QDCmnKhafQlKNJh7lB9FQiCRPn1HfrY1z7GyE8MJ213mc/s1181/photo_2023-01-30_14-52-41.jpg" alt=""> </div>
+      
+    </section>
+
+  </div>
+</section>
+  <!-- footer start here onward -->
+  <div class="footers">
+    <ul class="list">
+        <li>
+            <a href=" https://patnacomedycarnival.com/privacy/">Privacy Policy</a>
+          
+
+        </li>
+        <li>
+           <a href="https://patnacomedycarnival.com/refund/ ">Refund Policy</a>
+        </li>
+        <li>
+           <a href=" https://patnacomedycarnival.com/contact/">Contact Us</a>
+        </li>
+        <li>
+           <a href=" https://patnacomedycarnival.com/tnc/">T&C</a>
+        </li>
+        <li>
+            <a href="Refund Policy"></a>
+        </li>
+    </ul>
+     <p class="copyright">© Patna Comedy Carnival 2023 | All Right Reserved &nbsp;|&nbsp;<strong> Design By Ankit Singh </strong>  &nbsp;|</p>
+</div>
+
+    {% block content %} 
+    
+    {% endblock %} 
+    
+    <script>
+       const quantity = document.getElementById("quantity")
+       const total1 = document.getElementById("total")
+       const select = document.getElementById("opt")
+
+       
+       function validateForm() {
+  var x = document.forms["form1"]["name"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+       
+total1.innerText = select.value;
+        function countWord(){ 
+       
+         let word = quantity.value;
+        
+
+         let letter = select.value
+      
+         
+         total1.innerText = letter*word;
+         
+
+
+       }
+       let form = document.forms['form1']
+       form.onsubmit = function(event){
+
+        if(form.email.value=""){
+          showError("email error","you have to enter you email")
+        }
+        event.preventDefault()
+       }
+     </script>
+     <script>
+      function openNav(){
+        document.getElementById("sidenav").style.width="50%"
+      }
+      function CloseNav(){
+        document.getElementById("sidenav").style.width="0%"
+      }
+	function CloseNavs(){
+        document.getElementById("sidenav").style.width="0%"
+      }
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+      
+          $('.customer-logos').slick({
+        centerMode: true,
+      
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        centerPadding: '60px',
+      
+        autoplay:true,
+        autoplaySpeed:1500,
+        arrows: false ,
+        dots:false,
+        pauseOnHover:false,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+             
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 520,
+            settings: {
+              slidesToShow: 2
+            }
+          }
+        ]
+      })
+        })
+      
+      ;</script>
+
+      <script>
+        function cfb1(){
+          if (document.getElementById('fname1').value=="") {
+            alert("Please Enter Your First Name")
+            return false
+          }
+          if (document.getElementById('fname2').value=="") {
+            alert("Please Enter Your Second Name")
+            return false
+          }
+          if (document.getElementById('phone1').value.length<10) {
+            alert("Please enter a valid 10 digit Number")
+            return false
+          }
+        
+          if (document.getElementById('q1').value=="") {
+            alert("Please enter a valid quantity")
+            return false
+          }
+          if (document.getElementById('q1').value=="0") {
+            alert("Please enter a valid quantity")
+            return false
+          }
+          if (document.getElementById('q1').value=="-1") {
+            alert("Please enter a valid quantity")
+            return false
+          }
+          if (document.getElementById('q1').value=="-2") {
+            alert("Please enter a valid quantity")
+            return false
+          }
+          if (document.getElementById('q1').value=="-3") {
+            alert("Please enter a valid quantity")
+            return false
+          }
+          if (document.getElementById('q1').value=="-4") {
+            alert("Please enter a valid quantity")
+            return false
+          }
+          if (document.getElementById('q1').value=="-5") {
+            alert("Please enter a valid quantity")
+            return false
+          }
+          if (document.getElementById('q1').value.length>1000) {
+            alert("Please enter a valid quantity")
+            return false
+          }
+        
+          if (document.getElementById('q1').value * document.getElementById("price1").value>5000) {
+            alert("Please enter a valid quantity")
+            return false
+          }
+        }
+        
+       
+      </script>
+      
+    
+
+       
+      
+    
+     
+
+</body>
+</html>

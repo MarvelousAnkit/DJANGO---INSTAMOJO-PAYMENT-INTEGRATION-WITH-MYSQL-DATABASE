@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{% static '/pay.css' %}">
+
+    
+</head>
+<body>
+    <h1>Checkout Deatils</h1>
+    <div class="pay"> 
+    <table class="table">
+        <thead>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone No</th>
+            <th>Total</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-label="S.No"> <strong> 1 </strong></td>
+                <td data-label="Name"><strong>{{names1}} {{namefs}} </strong> </td>
+                <td data-label="Email"><strong>{{emailss}} </strong> </td>
+                <td data-label="Phone No"><strong>  {{phn}} </strong> </td>
+                <td data-label="Total"><strong> {{ttotal}} </strong> </td>
+                
+            </tr>
+        </tbody>
+    </table>
+    
+</div>
+<div class="buthead">
+<button class="button-3"><a href="{{payment_url}}"><strong>Pay Now</strong></a></button>
+</div>
+</body>
+</html>
