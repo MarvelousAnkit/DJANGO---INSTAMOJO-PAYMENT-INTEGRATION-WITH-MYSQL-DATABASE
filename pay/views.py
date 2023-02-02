@@ -3,7 +3,7 @@ from instamojo_wrapper import Instamojo
 from .models import Coffee
 from django.http import HttpResponse,HttpResponseRedirect
 
-api = Instamojo(api_key="72b2f51a25646dc0d55508a18a1bc22f", auth_token="e89977693f048aad522150dd4bd512f8"  )
+api = Instamojo(api_key="your api key", auth_token="your token key"  )
 
 
 
